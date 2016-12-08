@@ -77,6 +77,11 @@ export default {
         'subtitle': 'Variant visualizer and delivery portal',
         'url': 'http://scout.clinicalgenomics.se/'
       }, {
+        'id': 'scout-beta',
+        'title': 'Scout β',
+        'subtitle': 'Variant visualizer (BETA)',
+        'url': 'http://scout-demo.clinicalgenomics.se/'
+      }, {
         'id': 'nipt',
         'title': 'NIPT Viewer',
         'subtitle': 'Visualize data from NIPT experiments',
