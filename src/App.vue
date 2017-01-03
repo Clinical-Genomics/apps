@@ -67,8 +67,8 @@ export default {
         'subtitle': 'QC tools for post-alignment stats.',
         'url': 'http://trailblazer.clinicalgenomics.se:8083/'
       }, {
-        'id': 'taboo',
-        'title': 'Taboo',
+        'id': 'genotype',
+        'title': 'Genotype',
         'subtitle': 'Genotype concordance testing',
         'url': 'http://trailblazer.clinicalgenomics.se:8080/'
       }, {
