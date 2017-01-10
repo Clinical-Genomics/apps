@@ -86,6 +86,11 @@ export default {
         'title': 'NIPT Viewer',
         'subtitle': 'Visualize data from NIPT experiments',
         'url': 'https://clinical-db.scilifelab.se:8082/'
+      }, {
+        'id': 'mwgs',
+        'title': 'MWGS',
+        'subtitle': 'QC stats for microbial samples',
+        'url': 'http://trailblazer.clinicalgenomics.se:8084/'
       }]
     }
   },
