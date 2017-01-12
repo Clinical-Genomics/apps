@@ -37,6 +37,11 @@ export default {
         'subtitle': 'Quality assutance document system',
         'url': 'https://jo812.amsystem.com/index.php'
       }, {
+        'id': 'ganglia',
+        'title': 'Ganglia',
+        'subtitle': 'Monitoring for Rastapopolous (cluster)',
+        'url': 'https://rasta.scilifelab.se/ganglia/'
+      }, {
         'id': 'orderform',
         'title': 'Orderform',
         'subtitle': 'Check validity of orderforms',
