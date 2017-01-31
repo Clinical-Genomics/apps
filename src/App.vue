@@ -22,10 +22,10 @@ export default {
   data () {
     return {
       apps: [{
-        'id': 'clinicaladmin',
+        'id': 'cgadmin',
         'title': 'Clinical Admin',
         'subtitle': 'Admin interface for customer data.',
-        'url': 'http://trailblazer.clinicalgenomics.se:8082/'
+        'url': 'https://clinical-db.scilifelab.se:7070'
       }, {
         'id': 'supportsystem',
         'title': 'Support System',
