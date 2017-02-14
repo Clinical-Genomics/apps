@@ -42,11 +42,6 @@ export default {
         'subtitle': 'Monitoring for Rastapopolous (cluster)',
         'url': 'https://rasta.scilifelab.se/ganglia/'
       }, {
-        'id': 'orderform',
-        'title': 'Orderform',
-        'subtitle': 'Check validity of orderforms',
-        'url': 'http://orderform.clinicalgenomics.se/'
-      }, {
         'id': 'lims',
         'title': 'Clarity LIMS',
         'subtitle': 'Lab management system',
