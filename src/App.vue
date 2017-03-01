@@ -133,15 +133,26 @@ export default {
   .grid {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
   }
 
   .grid-item {
     margin-bottom: 5rem;
-    flex-basis: 30%;
-
     display: flex;
     justify-content: center;
+  }
+
+  /* Very small devices */
+  @media (min-width: 320px) {
+    .grid-item {
+      flex-basis: 50%;
+    }
+  }
+
+  /* Small devices */
+  @media (min-width: 520px) {
+    .grid-item {
+      flex-basis: 33%;
+    }
   }
 
   /* Small Devices, Tablets */
