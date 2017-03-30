@@ -80,7 +80,7 @@ export default {
         'id': 'scout-beta',
         'title': 'Scout β',
         'subtitle': 'Variant visualizer (BETA)',
-        'url': 'http://scout-demo.clinicalgenomics.se/'
+        'url': 'https://clinical-db.scilifelab.se:7071'
       }, {
         'id': 'nipt',
         'title': 'NIPT Viewer',
