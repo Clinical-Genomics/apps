@@ -25,7 +25,7 @@ export default {
         'id': 'cgadmin',
         'title': 'Clinical Admin',
         'subtitle': 'Admin interface for customer data.',
-        'url': 'https://clinical-db.scilifelab.se:7070'
+        'url': 'https://clinical-db.scilifelab.se:8080'
       }, {
         'id': 'supportsystem',
         'title': 'Support System',
@@ -46,6 +46,11 @@ export default {
         'title': 'Clarity LIMS',
         'subtitle': 'Lab management system',
         'url': 'https://clinical-lims.scilifelab.se/clarity/'
+      }, {
+        'id': 'samplesheet',
+        'title': 'Samplesheet',
+        'subtitle': 'Samplesheet generator for Illumina HiSeq',
+        'url': 'http://tools.scilifelab.se/samplesheet'
       }, {
         'id': 'clinstatsdb',
         'title': 'Clinstats DB',
