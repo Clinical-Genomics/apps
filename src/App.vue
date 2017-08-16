@@ -60,7 +60,7 @@ export default {
         'id': 'trailblazer',
         'title': 'Trailblazer',
         'subtitle': 'Analysis manager and dashboard',
-        'url': 'http://trailblazer.clinicalgenomics.se/'
+        'url': 'http://apps.clinicalgenomics.se/trailblazer/'
       }, {
         'id': 'housekeeper',
         'title': 'Housekeeper',
@@ -75,7 +75,7 @@ export default {
         'id': 'genotype',
         'title': 'Genotype',
         'subtitle': 'Genotype concordance testing',
-        'url': 'http://trailblazer.clinicalgenomics.se:8080/'
+        'url': 'http://apps.clinicalgenomics.se/genotype/'
       }, {
         'id': 'scout',
         'title': 'Scout',
