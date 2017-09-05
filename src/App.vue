@@ -3,7 +3,7 @@
     <section class="section">
       <div class="section-body">
         <div class="grid">
-          <div class="grid-item" v-for="app in apps">
+          <div class="grid-item" v-for="app in apps" :key="app.id">
             <Tool :id="app.id" :title="app.title" :subtitle="app.subtitle" :url="app.url" />
           </div>
         </div>
@@ -22,9 +22,9 @@ export default {
   data () {
     return {
       apps: [{
-        'id': 'cgadmin',
-        'title': 'Clinical Admin',
-        'subtitle': 'Admin interface for customer data.',
+        'id': 'cg',
+        'title': 'Clinical Genomics',
+        'subtitle': 'Customer portal and status overview.',
         'url': 'https://clinical-db.scilifelab.se:8080'
       }, {
         'id': 'supportsystem',
@@ -37,20 +37,10 @@ export default {
         'subtitle': 'Quality assutance document system',
         'url': 'https://jo812.amsystem.com/index.php'
       }, {
-        'id': 'ganglia',
-        'title': 'Ganglia',
-        'subtitle': 'Monitoring for Rastapopolous (cluster)',
-        'url': 'https://rasta.scilifelab.se/ganglia/'
-      }, {
         'id': 'lims',
         'title': 'Clarity LIMS',
         'subtitle': 'Lab management system',
         'url': 'https://clinical-lims.scilifelab.se/clarity/'
-      }, {
-        'id': 'samplesheet',
-        'title': 'Samplesheet',
-        'subtitle': 'Samplesheet generator for Illumina HiSeq',
-        'url': 'http://tools.scilifelab.se/samplesheet'
       }, {
         'id': 'clinstatsdb',
         'title': 'Clinstats DB',
@@ -61,16 +51,6 @@ export default {
         'title': 'Trailblazer',
         'subtitle': 'Analysis manager and dashboard',
         'url': 'http://apps.clinicalgenomics.se/trailblazer/'
-      }, {
-        'id': 'housekeeper',
-        'title': 'Housekeeper',
-        'subtitle': 'Manage successful analyses',
-        'url': 'http://trailblazer.clinicalgenomics.se:8081/'
-      }, {
-        'id': 'clinstatsweb',
-        'title': 'Clinstats Web',
-        'subtitle': 'QC tools for post-alignment stats.',
-        'url': 'http://trailblazer.clinicalgenomics.se:8083/'
       }, {
         'id': 'genotype',
         'title': 'Genotype',
@@ -83,7 +63,7 @@ export default {
         'url': 'http://scout.clinicalgenomics.se/'
       }, {
         'id': 'scout-beta',
-        'title': 'Scout β',
+        'title': 'Scout BETA',
         'subtitle': 'Variant visualizer (BETA)',
         'url': 'https://clinical-db.scilifelab.se:7071'
       }, {

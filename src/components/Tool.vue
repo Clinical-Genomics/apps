@@ -36,7 +36,8 @@ export default {
   }
 
   .project-title {
-    font-size: 1rem;
+    margin-top: .3rem;
+    font-size: .9rem;
     text-align: center;
   }
 
@@ -44,7 +45,7 @@ export default {
     font-size: .8rem;
     width: 200%;
     margin-left: -50%;
-    margin-top: -30px;
+    margin-top: -1.5rem;
     text-align: center;
     border-radius: 3px;
     padding: .2rem;
@@ -56,7 +57,7 @@ export default {
   }
   .project-container:hover .project-subtitle {
     opacity: 1;
-    margin-top: .5rem;
+    margin-top: 0;
     transition: all .3s;
   }
 </style>
